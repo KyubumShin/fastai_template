@@ -1,0 +1,12 @@
+seed: 42
+mask:
+  model_name: "model_test"
+  num_class: 3
+  loss: "BCEWithLogitsLossFlat"
+  data:
+    num_fold: 5
+    data_path: "./dataset"
+    train_path: "/train"
+    test_path: "/test"
+    batch_size: 8
+    num_worker: 4
