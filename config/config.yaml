@@ -10,3 +10,5 @@ mask:
     test_path: "/test"
     batch_size: 8
     num_worker: 4
+  transform:
+
